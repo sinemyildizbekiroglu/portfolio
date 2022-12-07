@@ -44,6 +44,7 @@ h1 {
 
 p {
   margin: 0;
+  font-size: 30px;
   font-weight: 300;
 }
 
@@ -53,8 +54,11 @@ p {
 
 .button {
   width: 200px;
-  height: 60px;
+  height: 55px;
   border-radius: 25px;
   background-color: coral;
   text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
 }
