@@ -92,3 +92,8 @@ button:active {
 .social {
   margin: 20px;
 }
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;   
+}
