@@ -92,7 +92,7 @@ button:active {
 }
 
 .logo {
-  height: 100px;
+  height: 200px;
   margin: 20px;
 }
 
@@ -139,4 +139,19 @@ button:active {
   margin-top: 25px;
   width: 250px;
   border-radius: 125px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
