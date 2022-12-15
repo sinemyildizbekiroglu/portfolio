@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 section {
@@ -66,12 +67,13 @@ p {
 
 .hero-text {
   margin-left: 80px;
+  margin-bottom: 200px;
 }
 
 .button {
   width: 200px;
   height: 55px;
-  border-radius: 25px;
+  border-radius: 30px;
   background-color: coral;
   text-align: center;
   font-size: 30px;
@@ -94,8 +96,8 @@ button:active {
 }
 
 .logo {
-  height: 200px;
-  margin: 20px;
+  height: 150px;
+  margin: 30px;
 }
 
 .social {
@@ -118,6 +120,7 @@ button:active {
 .headshot {
   width: 300px;
   border-radius: 150px;
+  margin-left: 80px;
 }
 
 .headshot-container {
@@ -136,6 +139,7 @@ button:active {
   display: flex;
   justify-content: space-around;
 }
+
 
 @media only screen and (max-width: 1000px) {
   .project-container {
@@ -169,6 +173,11 @@ a {
   display: none;
 }
 
+.hamburger:focus {
+  outline: 0;
+}
+
+
 @media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
@@ -176,9 +185,27 @@ a {
     background-color: transparent;
     color: white;
     font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
   }
 
   ul {
+    display: none;
+    background-color: #2b2c38;
+    margin: 0px;
+  }
+
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #2b2c38;
+  }
+
+  .logo {
     display: none;
   }
 }
