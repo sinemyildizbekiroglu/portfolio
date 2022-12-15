@@ -140,7 +140,6 @@ button:active {
   justify-content: space-around;
 }
 
-
 @media only screen and (max-width: 1000px) {
   .project-container {
     display: flex;
@@ -152,6 +151,7 @@ button:active {
   margin-top: 25px;
   width: 250px;
   border-radius: 125px;
+  border-color: #a9a9a9;
 }
 
 hr {
@@ -177,7 +177,6 @@ a {
   outline: 0;
 }
 
-
 @media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
@@ -192,7 +191,7 @@ a {
   ul {
     display: none;
     background-color: #2b2c38;
-    margin: 0px;
+    margin: 0ppx;
   }
 
   ul.show {
